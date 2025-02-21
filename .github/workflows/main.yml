@@ -15,9 +15,9 @@ jobs:
       uses: thedoctor0/zip-release@0.7.6
       with:
         type: 'zip'
-        filename: 'LS25_Thunderfarming_Vario_900.zip'
+        filename: 'LS25_Thunderfarming_BulkTrailer_90.zip'
         exclusions: '/.git* .git* README.md'
     - name: Upload Release
       uses: ncipollo/release-action@v1.12.0
       with:
-        artifacts: "LS25_Thunderfarming_Vario_900.zip"
+        artifacts: "LS25_Thunderfarming_BulkTrailer_90.zip"
