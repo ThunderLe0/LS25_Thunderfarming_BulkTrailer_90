@@ -1,12 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="90">
+<modDesc descVersion="96">
     <author>Leo</author>
     <version>1.0.0.0</version>
     <title>
 		<de>Thunderfarming BulkTrailer 90</de>
     </title>
     <description>        
-		<de>LKW Trailer - Thunderfarming Edition</de>
+		<en><![CDATA[
+Category: Semi Trailers
+Price: $95,000
+Capacity: 90 m³
+]]></en>
+<de><![CDATA[
+Shopkategorie: Auflieger
+Preis: 95.000€
+Kapazität: 90 m³
+]]></de>
     </description>
     <iconFilename>store/store_BulkTrailer_90.dds</iconFilename>
     <storeItems>

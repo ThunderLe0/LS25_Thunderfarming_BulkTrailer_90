@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
     <storeData>
         <name>
-            <en>SKS 30/1050</en></name>
+            <en>BulkTrailer 90</en></name>
         <specs>
             <combination filterCategory="trucks"/>
             <combination xmlFilename="$data/vehicles/krampe/dolly10L/dolly10L.xml"/>
@@ -12,11 +12,11 @@
             <function>$l10n_function_tipper</function>
             <function>$l10n_function_semiTrailer</function>
         </functions>
-        <image>store_sks30_150.dds</image>
+        <image>store/store_BulkTrailer_90.dds</image>
         <price>95000</price>
         <lifetime>600</lifetime>
         <rotation>0</rotation>
-        <brand>KRAMPE</brand>
+        <brand>Thunderfarming</brand>
         <category>trailersSemi</category>
         <shopTranslationOffset>0 0.291 0</shopTranslationOffset>
         <shopRotationOffset>-0.085 0 0</shopRotationOffset>
@@ -358,7 +358,7 @@
         <fillUnitConfigurations>
             <fillUnitConfiguration>
                 <fillUnits>
-                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK" capacity="59400" allowAILoading="true">
+                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypeCategories="BULK" capacity="90400" allowAILoading="true">
                         <exactFillRootNode node="exactFillRootNode"/>
                         <autoAimTargetNode node="fillAutoAimTarget" startZ="4.5" endZ="-4.5" invert="false" startPercentage="50"/>
                     </fillUnit>
@@ -437,7 +437,7 @@
         </trailerConfigurations>
     </trailer>
     <dischargeable>
-        <dischargeNode node="dischargeNode" emptySpeed="4242" fillUnitIndex="1" allowAIDischarge="true">
+        <dischargeNode node="dischargeNode" emptySpeed="9242" fillUnitIndex="1" allowAIDischarge="true">
             <info width="2.5" length="0.5"/>
             <effects>
                 <effectNode effectClass="TipEffect">
@@ -447,7 +447,7 @@
                 <effectNode effectNode="smokeNorm" materialType="unloadingSmoke" fadeTime="0.5"/>
             </effects>
         </dischargeNode>
-        <dischargeNode emptySpeed="1485" node="dischargeNodeGrainDoor" fillUnitIndex="1" unloadInfoIndex="1">
+        <dischargeNode emptySpeed="6485" node="dischargeNodeGrainDoor" fillUnitIndex="1" unloadInfoIndex="1">
             <info width="0.5" length="0.5"/>
             <effects>
                 <effectNode effectClass="TipEffect">
@@ -457,7 +457,7 @@
                 <effectNode effectNode="smokeNorm" materialType="unloadingSmoke" fadeTime="0.5"/>
             </effects>
         </dischargeNode>
-        <dischargeNode node="dischargeNodeSlidingFloor" emptySpeed="2121" fillUnitIndex="1" unloadInfoIndex="2">
+        <dischargeNode node="dischargeNodeSlidingFloor" emptySpeed="5121" fillUnitIndex="1" unloadInfoIndex="2">
             <info width="2.5" length="0.5"/>
             <effects>
                 <effectNode effectClass="TipEffect">
@@ -472,6 +472,35 @@
         <allowTurnBackward value="false"/>
         <agentAttachment jointNode="attacherJoint" rotCenterWheelIndices="1 2 3 4 5 6" width="2.55" height="3.85" length="11.5" lengthOffset="2.55"/>
     </ai>
+	    <designConfigurations title="Logo">
+        <designConfiguration name="ohne">
+            <objectChange node="ThF_T" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_L" visibilityActive="false" visibilityInactive="false" />
+        </designConfiguration>
+		<designConfiguration name="Thunderfarming">
+            <objectChange node="ThF_T" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_L" visibilityActive="true" visibilityInactive="false" />
+        </designConfiguration>
+        <designConfiguration name="Thunderfarming Logo">
+            <objectChange node="ThF_T" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_L" visibilityActive="true" visibilityInactive="false" />
+        </designConfiguration>
+		<designConfiguration name="Thunderfarming Text">
+            <objectChange node="ThF_T" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_L" visibilityActive="false" visibilityInactive="false" />
+        </designConfiguration>
+    </designConfigurations>
+	<baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
+        <baseColorConfiguration color="0.0 0.0 0.0" name="Thunderfarming Black" isDefault="true" />
+        <baseColorConfiguration color="VOLVO_PURPLE1" name="Purple metalic" />
+        <baseColorConfiguration color="VOLVO_RED1" name="Weinrot Metalic" />
+        <baseColorConfiguration color="VOLVO_BM_GREEN1" name="Mintgrün Metalic" />
+        <baseColorConfiguration color="VOLVO_YELLOW1" name="Gelb Metalic" />
+        <baseColorConfiguration color="NEWHOLLAND_GOLD1" name="Gold" />
+        <material materialSlotName="Body" />
+    </baseColorConfigurations>
+	
+	
     <rimColorConfigurations>
         <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_CHROME" price="1000"/>
         <rimColorConfiguration materialTemplateName="RIM_DEFAULT"/>
@@ -593,5 +622,7 @@
         <i3dMapping id="dischargeNode" node="0>0|4"/>
         <i3dMapping id="dischargeNodeGrainDoor" node="0>0|5"/>
         <i3dMapping id="dischargeNodeSlidingFloor" node="0>0|6"/>
+		<i3dMapping id="ThF_L" node="1>"/>
+		<i3dMapping id="ThF_T" node="2>"/>
     </i3dMappings>
 </vehicle>
