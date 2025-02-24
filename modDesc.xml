@@ -17,7 +17,7 @@ Preis: 95.000€
 Kapazität: 90 m³
 ]]></de>
     </description>
-    <iconFilename>store/store_BulkTrailer_90.dds</iconFilename>
+    <iconFilename>store/icon_BulkTrailer_90.dds</iconFilename>
     <storeItems>
         <storeItem xmlFilename="xml/BulkTrailer_90.xml"/>
     </storeItems>

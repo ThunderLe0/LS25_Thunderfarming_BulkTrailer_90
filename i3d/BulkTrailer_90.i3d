@@ -7,7 +7,7 @@
 
   <Files>
     <File fileId="46" filename="../textures/Leo Text.dds"/>
-    <File fileId="45" filename="../textures/Logo_Leo_white.dds"/>
+    <File fileId="45" filename="../textures/Leo_Logo_white.dds"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="37" filename="$data/shared/assets/lights/lizard/plateNumberLight03.i3d"/>
     <File fileId="36" filename="$data/shared/assets/lights/lizard/rearLight55.i3d"/>
