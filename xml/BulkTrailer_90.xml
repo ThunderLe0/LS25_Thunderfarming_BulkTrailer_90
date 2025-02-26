@@ -474,20 +474,32 @@
     </ai>
 	    <designConfigurations title="Logo">
         <designConfiguration name="ohne">
-            <objectChange node="ThF_T" visibilityActive="false" visibilityInactive="false" />
-            <objectChange node="ThF_L" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_TL" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_TR" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThL_LB" visibilityActive="false" visibilityInactive="false" />
         </designConfiguration>
 		<designConfiguration name="Thunderfarming">
-            <objectChange node="ThF_T" visibilityActive="true" visibilityInactive="false" />
-            <objectChange node="ThF_L" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LL" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LR" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LB" visibilityActive="true" visibilityInactive="false" />
         </designConfiguration>
         <designConfiguration name="Thunderfarming Logo">
-            <objectChange node="ThF_T" visibilityActive="false" visibilityInactive="false" />
-            <objectChange node="ThF_L" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_TL" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LL" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_TR" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LR" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LB" visibilityActive="true" visibilityInactive="false" />
         </designConfiguration>
 		<designConfiguration name="Thunderfarming Text">
-            <objectChange node="ThF_T" visibilityActive="true" visibilityInactive="false" />
-            <objectChange node="ThF_L" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false" />
+            <objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LB" visibilityActive="false" visibilityInactive="false" />
         </designConfiguration>
     </designConfigurations>
 	<baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
