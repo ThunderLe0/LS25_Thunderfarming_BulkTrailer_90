@@ -42,7 +42,7 @@
 	<wheels>
 		<wheelConfigurations>
 			<wheelConfiguration name="$l10n_configuration_valueDefault" price="0" saveId="DEFAULT" brand="CONTINENTAL">
-				<wheels>
+				<wheels>1
 					<wheel filename="$data/shared/wheels/tires/continental/contiCrossTracHS3/385_65R22_5.xml" configId="truckTrailer02" isLeft="true" hasTireTracks="true" hasParticles="true">
 						<physics tipOcclusionAreaGroupId="1" rotSpeed="0" restLoad="1.2" repr="wheelFrontLeft" forcePointRatio="0.25" initialCompression="10" suspTravel="0.08" spring="125" damper="75" frictionScale="1.6" yOffset="-0.0042"/>
 						<wheelChock parkingNode="wheelChock01"/>
@@ -438,7 +438,7 @@
 		</trailerConfigurations>
 	</trailer>
 	<dischargeable>
-		<dischargeNode node="dischargeNode" emptySpeed="9242" fillUnitIndex="1" allowAIDischarge="true">
+		<dischargeNode node="dischargeNode" emptySpeed="10242" fillUnitIndex="1" allowAIDischarge="true">
 			<info width="2.5" length="0.5"/>
 			<effects>
 				<effectNode effectClass="TipEffect">
@@ -448,7 +448,7 @@
 				<effectNode effectNode="smokeNorm" materialType="unloadingSmoke" fadeTime="0.5"/>
 			</effects>
 		</dischargeNode>
-		<dischargeNode emptySpeed="6485" node="dischargeNodeGrainDoor" fillUnitIndex="1" unloadInfoIndex="1">
+		<dischargeNode emptySpeed="4485" node="dischargeNodeGrainDoor" fillUnitIndex="1" unloadInfoIndex="1">
 			<info width="0.5" length="0.5"/>
 			<effects>
 				<effectNode effectClass="TipEffect">
@@ -458,7 +458,7 @@
 				<effectNode effectNode="smokeNorm" materialType="unloadingSmoke" fadeTime="0.5"/>
 			</effects>
 		</dischargeNode>
-		<dischargeNode node="dischargeNodeSlidingFloor" emptySpeed="5121" fillUnitIndex="1" unloadInfoIndex="2">
+		<dischargeNode node="dischargeNodeSlidingFloor" emptySpeed="8121" fillUnitIndex="1" unloadInfoIndex="2">
 			<info width="2.5" length="0.5"/>
 			<effects>
 				<effectNode effectClass="TipEffect">
@@ -475,32 +475,49 @@
 	</ai>
 	<designConfigurations title="Logo">
 		<designConfiguration name="ohne">
-			<objectChange node="ThF_TL" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_TR" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LB" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Text_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Text_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_B" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Krampe" visibilityActive="false" visibilityInactive="false"/>
+            <objectChange node="Krampe_B" visibilityActive="false" visibilityInactive="false"/>
 		</designConfiguration>
 		<designConfiguration name="Thunderfarming">
-			<objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LL" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LR" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LB" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Text_L" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_L" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Text_R" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_R" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_B" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Krampe" visibilityActive="false" visibilityInactive="false"/>
+            <objectChange node="Krampe_B" visibilityActive="false" visibilityInactive="false"/>
 		</designConfiguration>
 		<designConfiguration name="Thunderfarming Logo">
-			<objectChange node="ThF_TL" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LL" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_TR" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LR" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LB" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Text_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_L" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Text_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_R" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_B" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Krampe" visibilityActive="false" visibilityInactive="false"/>
+            <objectChange node="Krampe_B" visibilityActive="false" visibilityInactive="false"/>
 		</designConfiguration>
 		<designConfiguration name="Thunderfarming Text">
-			<objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false"/>
-			<objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false"/>
-			<objectChange node="ThF_LB" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Text_L" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Text_R" visibilityActive="true" visibilityInactive="false"/>
+			<objectChange node="Logo_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_B" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Krampe" visibilityActive="false" visibilityInactive="false"/>
+            <objectChange node="Krampe_B" visibilityActive="false" visibilityInactive="false"/>
+		</designConfiguration>
+		<designConfiguration name="Krampe">
+			<objectChange node="Text_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_L" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Text_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_R" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Logo_B" visibilityActive="false" visibilityInactive="false"/>
+			<objectChange node="Krampe" visibilityActive="true" visibilityInactive="false"/>
+            <objectChange node="Krampe_B" visibilityActive="true" visibilityInactive="false"/>
 		</designConfiguration>
 	</designConfigurations>
 	<baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
@@ -512,7 +529,7 @@
 		<baseColorConfiguration color="NEWHOLLAND_GOLD1" name="Gold"/>
 		<material materialSlotName="Body"/>
 	</baseColorConfigurations>
-	<rimColorConfigurations useDefaultColors="true">
+	<rimColorConfigurations>
 		<rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_CHROME" price="1000"/>
 		<rimColorConfiguration materialTemplateName="RIM_DEFAULT"/>
 		<rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_WHITE"/>
@@ -633,10 +650,12 @@
 		<i3dMapping id="dischargeNode" node="0>0|4"/>
 		<i3dMapping id="dischargeNodeGrainDoor" node="0>0|5"/>
 		<i3dMapping id="dischargeNodeSlidingFloor" node="0>0|6"/>
-		<i3dMapping id="ThF_LL" node="0>0|3|0|6|1"/>
-		<i3dMapping id="ThF_TL" node="0>0|3|0|6|2"/>
-		<i3dMapping id="ThF_LR" node="0>0|3|0|6|3"/>
-		<i3dMapping id="ThF_TR" node="0>0|3|0|6|4"/>
-		<i3dMapping id="ThF_LB" node="0>0|3|0|2|5|1"/>
+		<i3dMapping id="Krampe" node="0>0|3|0|6|1"/>
+		<i3dMapping id="Logo_L" node="0>0|3|0|6|2"/>
+		<i3dMapping id="Text_L" node="0>0|3|0|6|3"/>
+		<i3dMapping id="Logo_R" node="0>0|3|0|6|4"/>
+		<i3dMapping id="Text_R" node="0>0|3|0|6|5"/>
+		<i3dMapping id="Logo_B" node="0>0|3|0|2|7"/>
+        <i3dMapping id="Krampe_B" node="0>0|3|0|2|4"/>
 	</i3dMappings>
 </vehicle>
