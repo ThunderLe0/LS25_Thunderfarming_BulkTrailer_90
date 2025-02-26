@@ -492,14 +492,14 @@
         <Shape name="colPart01" translation="0 2.08103 5.39325" shapeId="33" compoundChild="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" density="0.001" nodeId="321" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
         <Shape name="colPart02" translation="0 0.623615 0" shapeId="34" compoundChild="true" collisionFilterGroup="0x10004" collisionFilterMask="0xfe3ffb83" density="0.001" nodeId="322" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
       </TransformGroup>
+      <TransformGroup name="Logos" translation="1.25577 2.57803 -0.45167" nodeId="323">
+        <Shape name="Thunderfarming Logo l" translation="-0.01677 -0.25803 -3.46233" rotation="90 90 0" scale="1.5 1 1.5" shapeId="35" nodeId="324" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
+        <Shape name="Thunderfarming Text l" translation="0.01677 0.25803 3.46233" rotation="90 90 0" scale="3 1 1" shapeId="35" nodeId="325" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="29"/>
+        <Shape name="Thunderfarming Logo r" translation="-2.495 -0.25803 -3.462" rotation="90 -90 -6.36112e-06" scale="1.5 1 1.5" shapeId="35" nodeId="326" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
+        <Shape name="Thunderfarming Text r" translation="-2.495 0.25803 3.46233" rotation="90 -90 0" scale="3 1 1" shapeId="35" nodeId="327" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="29"/>
+        <Shape name="Thunderfarming Logo b" translation="-1.19464 0.00859955 -5.213" rotation="-90 0 -180" scale="1.5 1 1.5" shapeId="35" nodeId="328" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
+      </TransformGroup>
     </Shape>
-    <TransformGroup name="Logos" translation="1.25577 2.57803 -0.45167" nodeId="323">
-      <Shape name="Thunderfarming Logo l" translation="-0.01677 -0.25803 -3.46233" rotation="90 90 0" scale="1.5 1 1.5" shapeId="35" nodeId="324" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
-      <Shape name="Thunderfarming Text l" translation="0.01677 0.25803 3.46233" rotation="90 90 0" scale="3 1 1" shapeId="35" nodeId="325" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="29"/>
-      <Shape name="Thunderfarming Logo r" translation="-2.495 -0.25803 -3.462" rotation="90 -90 -6.36112e-06" scale="1.5 1 1.5" shapeId="35" nodeId="326" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
-      <Shape name="Thunderfarming Text r" translation="-2.495 0.25803 3.46233" rotation="90 -90 0" scale="3 1 1" shapeId="35" nodeId="327" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="29"/>
-      <Shape name="Thunderfarming Logo b" translation="-1.19464 0.00859955 -5.213" rotation="-90 0 -180" scale="1.5 1 1.5" shapeId="35" nodeId="328" castsShadows="false" receiveShadows="false" distanceBlending="false" materialIds="30"/>
-    </TransformGroup>
   </Scene>
 
   <UserAttributes>
