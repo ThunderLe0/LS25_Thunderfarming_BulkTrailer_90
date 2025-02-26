@@ -633,6 +633,7 @@
 		<i3dMapping id="dischargeNode" node="0>0|4"/>
 		<i3dMapping id="dischargeNodeGrainDoor" node="0>0|5"/>
 		<i3dMapping id="dischargeNodeSlidingFloor" node="0>0|6"/>
+		<i3dMapping id="Logos" node="0>3"/>
 		<i3dMapping id="ThF_LL" node="0>3|0"/>
 		<i3dMapping id="ThF_TL" node="0>3|1"/>
 		<i3dMapping id="ThF_LR" node="0>3|2"/>
