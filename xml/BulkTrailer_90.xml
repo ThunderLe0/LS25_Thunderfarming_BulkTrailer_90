@@ -478,7 +478,7 @@
             <objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false" />
             <objectChange node="ThF_TR" visibilityActive="false" visibilityInactive="false" />
             <objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false" />
-            <objectChange node="ThL_LB" visibilityActive="false" visibilityInactive="false" />
+            <objectChange node="ThF_LB" visibilityActive="false" visibilityInactive="false" />
         </designConfiguration>
         <designConfiguration name="Thunderfarming">
             <objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false" />
