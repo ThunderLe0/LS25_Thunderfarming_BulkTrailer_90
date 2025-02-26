@@ -472,7 +472,7 @@
         <allowTurnBackward value="false"/>
         <agentAttachment jointNode="attacherJoint" rotCenterWheelIndices="1 2 3 4 5 6" width="2.55" height="3.85" length="11.5" lengthOffset="2.55"/>
     </ai>
-	    <designConfigurations title="Logo">
+    <designConfigurations title="Logo">
         <designConfiguration name="ohne">
             <objectChange node="ThF_TL" visibilityActive="false" visibilityInactive="false" />
             <objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false" />
@@ -480,7 +480,7 @@
             <objectChange node="ThF_LR" visibilityActive="false" visibilityInactive="false" />
             <objectChange node="ThL_LB" visibilityActive="false" visibilityInactive="false" />
         </designConfiguration>
-		<designConfiguration name="Thunderfarming">
+        <designConfiguration name="Thunderfarming">
             <objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false" />
             <objectChange node="ThF_LL" visibilityActive="true" visibilityInactive="false" />
             <objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false" />
@@ -494,7 +494,7 @@
             <objectChange node="ThF_LR" visibilityActive="true" visibilityInactive="false" />
             <objectChange node="ThF_LB" visibilityActive="true" visibilityInactive="false" />
         </designConfiguration>
-		<designConfiguration name="Thunderfarming Text">
+        <designConfiguration name="Thunderfarming Text">
             <objectChange node="ThF_TL" visibilityActive="true" visibilityInactive="false" />
             <objectChange node="ThF_LL" visibilityActive="false" visibilityInactive="false" />
             <objectChange node="ThF_TR" visibilityActive="true" visibilityInactive="false" />
@@ -502,7 +502,7 @@
             <objectChange node="ThF_LB" visibilityActive="false" visibilityInactive="false" />
         </designConfiguration>
     </designConfigurations>
-	<baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
+    <baseColorConfigurations useDefaultColors="true" defaultColorMaterialTemplateName="calibratedMetallicPaint">
         <baseColorConfiguration color="0.0 0.0 0.0" name="Thunderfarming Black" isDefault="true" />
         <baseColorConfiguration color="VOLVO_PURPLE1" name="Purple metalic" />
         <baseColorConfiguration color="VOLVO_RED1" name="Weinrot Metalic" />
@@ -511,9 +511,8 @@
         <baseColorConfiguration color="NEWHOLLAND_GOLD1" name="Gold" />
         <material materialSlotName="Body" />
     </baseColorConfigurations>
-	
-	
-    <rimColorConfigurations>
+
+    <rimColorConfigurations useDefaultColors="true">
         <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_CHROME" price="1000"/>
         <rimColorConfiguration materialTemplateName="RIM_DEFAULT"/>
         <rimColorConfiguration materialTemplateName="RIM_CONFIGURATION_WHITE"/>
