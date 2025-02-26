@@ -638,6 +638,6 @@
         <i3dMapping id="ThF_TL" node="1>1"/>
         <i3dMapping id="ThF_LR" node="1>2"/>
         <i3dMapping id="ThF_TR" node="1>3"/>
-        <i3dMapping id="ThF_TB" node="1>4"/>
+        <i3dMapping id="ThF_LB" node="1>4"/>
     </i3dMappings>
 </vehicle>
