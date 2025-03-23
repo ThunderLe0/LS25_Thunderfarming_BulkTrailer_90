@@ -6,7 +6,7 @@
   </Asset>
 
   <Files>
-    <File fileId="48" filename="../textures/Leo Text.dds"/>
+    <File fileId="48" filename="../textures/Leo_Text.dds"/>
     <File fileId="42" filename="../textures/Leo_Logo_white.dds"/>
     <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
     <File fileId="37" filename="$data/shared/assets/lights/lizard/plateNumberLight03.i3d"/>
